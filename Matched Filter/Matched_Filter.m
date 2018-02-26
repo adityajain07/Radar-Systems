@@ -20,7 +20,7 @@ xaxis = -(N-1)*delt:delt:(N-1)*delt;  % x-axis
 %% Auto-Correlation of the input signal
 Stx = zeros(1, N);
 
-% rect function multiplied with the complex signal signal
+% rect function multiplied with the complex signal
 for n = 1:N
     if n < nw
         Stx(1,n) = exp(1i*2*pi*f*(n-1)*delt);        
