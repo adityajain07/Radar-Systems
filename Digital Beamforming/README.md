@@ -3,5 +3,6 @@ The MATLAB file 'Digital_Beamforming.m' contains the code for digital beamformin
 
 
 ## Digital Beamforming
-The received signal is first simulated with an azimuth angle of 30 degrees with 50 elements in the phased array. 
+The received signal is first simulated with an azimuth angle of 30 degrees with 50 elements in the phased array. Below is the plot after applying digital beamforming.
+
 ![alt text](https://github.com/adityajain07/Radar-Systems/blob/master/Digital%20Beamforming/Digital_Beamforming.png)
